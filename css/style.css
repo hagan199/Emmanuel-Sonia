@@ -17,6 +17,14 @@
     z-index: 10;
 }
 
+.nav-list {
+    list-style-type: none;
+}
+
 #welcome-section {
     height: 100vh;
+}
+
+a {
+    text-decoration: none;
 }
