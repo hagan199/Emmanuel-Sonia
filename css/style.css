@@ -12,19 +12,43 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(62, 63, 62, 0.8);
-    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
-    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 30%);
+    z-index: 99;
 }
 
 .nav-list {
+    display: flex;
     list-style-type: none;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: #fff;
+    text-decoration: none;
 }
 
 #welcome-section {
     height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(139, 140, 192);
 }
 
-a {
-    text-decoration: none;
+#projects {
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: rgb(96, 98, 245);
+}
+
+#contact {
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: rgb(5, 5, 43);
+    color: #fff;
 }
